@@ -1,0 +1,65 @@
+#-------------------#
+#  TARGET BEHAVIOR  #
+#-------------------#
+target_size: 70
+time_per_target: 3.5
+target_speed: 0
+constant_target_size: no
+misclick_kills_nearest: yes
+
+#------------#
+#  SPAWNING  #
+#------------#
+targets_per_sec: 2
+targets_per_sec_increase_per_min: 0
+instant_respawn: no
+spawn_group_size: 1
+spawn_in_center: no
+randomized_spawntime: no
+max_dist_from_previous: -1
+
+#---------#
+#  LIVES  #
+#---------#
+lives: 3
+misclick_loses_life: yes
+miss_target_loses_life: yes
+losing_life_clears_screen: no
+time_limit: 0
+
+#--------#
+#  GRID  #
+#--------#
+#  note: set these to 0 to
+#  enable autoresize
+grid_width: 1900
+grid_height: 900
+
+#---------------#
+#  AUTOBALANCE  #
+#---------------#
+#  note: you can set this to 'nothing',
+#  targets_per_sec', 'target_size', or
+#  'time_per_target'
+autobalance: targets_per_sec
+autobalance_accuracy: 92%
+
+#------------#
+#  GIMMICKS  #
+#------------#
+invisible_cursor: no
+no_need_to_click: no
+target_hp: 1
+
+#-----------------#
+#  SMALL DETAILS  #
+#-----------------#
+allow_overlap: yes
+show_reaction_time: no
+target_fade_out_effect: on
+losing_life_animation: off
+show_target_ghosts: yes
+absolute_target_speed: no
+target_speed_randomness: 30%
+horizontal_movement: 50%
+rng_seed: -1
